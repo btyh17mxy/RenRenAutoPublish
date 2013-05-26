@@ -1,0 +1,7 @@
+cron:
+- description: daily summary job
+  url: /store
+  schedule: every 1 minutes
+- description: daily summary job
+  url: /publish
+  schedule: every 1 minutes

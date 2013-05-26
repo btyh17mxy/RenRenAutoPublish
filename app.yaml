@@ -1,0 +1,21 @@
+application: btyh17mxy08
+version: 1
+runtime: python27
+threadsafe: no
+api_version: 1
+
+handlers:
+- url: /
+  script: main.py
+  login: admin
+- url: /login
+  script: main.py
+  login: admin
+  
+- url: /store
+  script: autostore.py
+  login: admin
+
+- url: /publish
+  script: autopublish.py
+  login: admin
